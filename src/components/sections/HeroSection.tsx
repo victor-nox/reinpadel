@@ -14,16 +14,26 @@ export function HeroSection() {
   return (
     <section
       id="hero"
-      className="bg-gradient-to-b from-brand-navy to-[#1e5faa] text-white"
+      className="relative overflow-hidden text-white"
     >
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center py-20 md:py-32 gap-6">
+      {/* Background — poster image with dark overlay for text readability */}
+      <Image
+        src="/hero-bg.png"
+        alt=""
+        fill
+        priority
+        className="object-cover object-center"
+      />
+      <div className="absolute inset-0 bg-brand-navy/70" />
+
+      <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center py-20 md:py-32 gap-6">
         {/* Logo — priority-loaded as LCP element (HERO-05) */}
         <Image
           src="/rpt_logo.png"
           width={424}
           height={424}
           priority
-          className="w-24 h-24 md:w-32 md:h-32 object-contain"
+          className="w-36 h-36 md:w-48 md:h-48 object-contain"
           alt="Logo Rein Padel Tour"
         />
 

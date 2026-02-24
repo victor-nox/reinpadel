@@ -99,7 +99,7 @@ function CardIcon({ name }: { name: string }) {
  */
 export function ParticipationSection() {
   return (
-    <SectionWrapper id="participer" className="bg-white">
+    <SectionWrapper id="participer" className="bg-blue-50">
       {/* Section heading */}
       <h2 className="mb-12 text-center font-display text-3xl font-bold text-brand-navy md:text-4xl">
         <Fr>{"Rejoignez l'aventure"}</Fr>
@@ -110,10 +110,10 @@ export function ParticipationSection() {
         {PARTICIPATION_CARDS.map((card) => (
           <div
             key={card.title}
-            className="flex flex-col items-center rounded-2xl border border-brand-gray-light p-8 text-center shadow-sm"
+            className="flex flex-col items-center rounded-2xl border border-blue-100 bg-white/60 p-8 text-center shadow-sm"
           >
             {/* Icon container — circular badge */}
-            <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-brand-gray-light text-brand-navy">
+            <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-blue-100/60 text-brand-navy">
               <CardIcon name={card.icon} />
             </div>
 

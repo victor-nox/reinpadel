@@ -12,7 +12,7 @@ import { FACT_NUMBERS } from '@/lib/constants'
  */
 export function MissionSection() {
   return (
-    <SectionWrapper id="mission" className="bg-white">
+    <SectionWrapper id="mission" className="bg-blue-50">
       <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
 
         {/* Left column — text + quote (MISS-02) */}
@@ -45,16 +45,16 @@ export function MissionSection() {
         </div>
 
         {/* Right column — fact cards (MISS-03) */}
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 md:grid-cols-1 lg:grid-cols-3">
+        <div className="flex flex-col justify-center gap-4">
           {FACT_NUMBERS.map((fact) => (
             <div
               key={fact.value}
-              className="rounded-xl bg-brand-gray-light p-6 text-center"
+              className="flex items-center gap-4 rounded-xl bg-blue-100/60 px-6 py-4"
             >
-              <p className="font-display text-4xl font-black text-brand-navy">
+              <p className="font-display text-4xl font-black text-brand-navy shrink-0">
                 {fact.value}
               </p>
-              <p className="mt-1 text-sm text-brand-gray/70">
+              <p className="text-sm text-brand-gray/70">
                 <Fr>{fact.label}</Fr>
               </p>
             </div>

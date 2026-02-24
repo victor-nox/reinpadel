@@ -13,7 +13,7 @@ import { PARTNERS } from '@/lib/constants'
  */
 export function PartnersSection() {
   return (
-    <SectionWrapper id="partenaires" className="bg-brand-gray-light">
+    <SectionWrapper id="partenaires" className="bg-blue-100/40">
       <h2 className="mb-10 text-center font-display text-3xl font-bold text-brand-navy md:text-4xl">
         <Fr>{"Nos partenaires"}</Fr>
       </h2>
@@ -29,7 +29,7 @@ export function PartnersSection() {
         {PARTNERS.map((p) => (
           <div
             key={p.id}
-            className="flex items-center justify-center rounded-lg bg-white p-4 shadow-sm"
+            className="flex items-center justify-center rounded-lg bg-white/70 p-4 shadow-sm"
           >
             <Image
               src={p.src}

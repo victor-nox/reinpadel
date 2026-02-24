@@ -13,8 +13,8 @@
 
 export const FACT_NUMBERS = [
   { value: '9', label: 'villes traversees' },
-  { value: '~3 000', label: 'km de route' },
   { value: '10', label: 'jours de defi' },
+  { value: '~3 000', label: 'km de route' },
 ] as const
 
 // ---------------------------------------------------------------------------
