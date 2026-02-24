@@ -23,16 +23,16 @@ export const FACT_NUMBERS = [
 // ---------------------------------------------------------------------------
 
 export const TOUR_STOPS = [
-  { day: 1, date: '6 mars', city: 'Nancy', club: 'Vidapadel', tag: 'Depart' },
-  { day: 2, date: '7 mars', city: 'Reims', club: 'Padel Shot', tag: null },
-  { day: 3, date: '8 mars', city: 'Lille', club: '4Padel Lille Seclin', tag: null },
-  { day: 4, date: '9 mars', city: 'Angers', club: 'Playground Angers', tag: null },
-  { day: 5, date: '10 mars', city: 'Bordeaux', club: '4Padel Bordeaux', tag: null },
-  { day: 6, date: '11 mars', city: 'Montpellier', club: 'Tennis Padel Club Castries', tag: null },
-  { day: 7, date: '12 mars', city: null, club: null, tag: 'Repos' },
-  { day: 8, date: '13 mars', city: 'Aix-en-Provence', club: 'WinWin Padel', tag: null },
-  { day: 9, date: '14 mars', city: 'Lyon', club: 'Padel Shot St Genis', tag: null },
-  { day: 10, date: '15 mars', city: 'Paris', club: '4Padel Boulogne', tag: 'Arrivee' },
+  { day: 1, date: '6 mars', city: 'Nancy', club: 'Vidapadel', tag: 'Depart', instagram: 'https://www.instagram.com/vidapadel_/?hl=fr' },
+  { day: 2, date: '7 mars', city: 'Reims', club: 'Padel Shot', tag: null, instagram: 'https://www.instagram.com/padel_shot_reims/?hl=fr' },
+  { day: 3, date: '8 mars', city: 'Lille', club: '4Padel Lille Seclin', tag: null, instagram: 'https://www.instagram.com/4padel_lilleseclin/?hl=fr' },
+  { day: 4, date: '9 mars', city: 'Angers', club: 'Playground Angers', tag: null, instagram: 'https://www.instagram.com/playground_angers/?hl=fr' },
+  { day: 5, date: '10 mars', city: 'Bordeaux', club: '4Padel Bordeaux', tag: null, instagram: 'https://www.instagram.com/4padel_bordeaux/?hl=fr' },
+  { day: 6, date: '11 mars', city: 'Montpellier', club: 'Tennis Padel Club Castries', tag: null, instagram: 'https://www.instagram.com/tennis_padel_club_castries/?hl=fr' },
+  { day: 7, date: '12 mars', city: null, club: null, tag: 'Repos', instagram: null },
+  { day: 8, date: '13 mars', city: 'Aix-en-Provence', club: 'WinWin Padel', tag: null, instagram: 'https://www.instagram.com/win.win.padel/?hl=fr' },
+  { day: 9, date: '14 mars', city: 'Lyon', club: 'Padel Shot St Genis', tag: null, instagram: 'https://www.instagram.com/padelshot_saint_genis_laval/?hl=fr' },
+  { day: 10, date: '15 mars', city: 'Paris', club: '4Padel Boulogne', tag: 'Arrivee', instagram: 'https://www.instagram.com/4padel_boulogne/?hl=fr' },
 ] as const
 
 // ---------------------------------------------------------------------------

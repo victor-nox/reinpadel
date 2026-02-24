@@ -51,9 +51,14 @@ export function TourSection() {
                       {stop.tag}
                     </span>
                   )}
-                  <span className="ml-auto hidden text-sm text-brand-gray/50 sm:block">
+                  <a
+                    href={stop.instagram ?? '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-auto hidden text-sm text-brand-gray/50 underline-offset-4 transition-colors hover:text-brand-navy hover:underline sm:block"
+                  >
                     {stop.club}
-                  </span>
+                  </a>
                 </>
               ) : (
                 <span className="text-sm">
