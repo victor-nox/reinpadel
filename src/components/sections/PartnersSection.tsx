@@ -7,7 +7,7 @@ import { Fr } from '@/lib/typography'
  */
 export function PartnersSection() {
   return (
-    <SectionWrapper id="partenaires" className="bg-blue-100/40">
+    <SectionWrapper id="partenaires" className="bg-white">
       <h2 className="mb-10 text-center font-display text-3xl font-bold text-brand-navy md:text-4xl">
         <Fr>{"Nos partenaires"}</Fr>
       </h2>
