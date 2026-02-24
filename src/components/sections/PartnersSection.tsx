@@ -1,15 +1,9 @@
 import Image from 'next/image'
-import { Button } from '@/components/ui/Button'
 import { SectionWrapper } from '@/components/ui/SectionWrapper'
 import { Fr } from '@/lib/typography'
-import { PARTNERS } from '@/lib/constants'
 
 /**
- * PartnersSection — displays all 19 partner logos in a uniform responsive grid.
- *
- * PRTN-01: All 19 logos at same size, no two-tier distinction (CONTEXT.md override)
- * PRTN-02: Logos are grayscale by default, show color on hover (pure CSS, zero JS)
- * PRTN-03: CTA button "Devenir partenaire" below the grid
+ * PartnersSection — displays all partner logos as a single combined image.
  */
 export function PartnersSection() {
   return (
@@ -24,30 +18,24 @@ export function PartnersSection() {
         </Fr>
       </p>
 
-      {/* Logo grid — responsive columns, all logos at same size */}
-      <div className="grid grid-cols-3 gap-6 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6">
-        {PARTNERS.map((p) => (
-          <div
-            key={p.id}
-            className="flex items-center justify-center rounded-lg bg-white/70 p-4 shadow-sm"
-          >
-            <Image
-              src={p.src}
-              alt={p.alt}
-              width={120}
-              height={60}
-              className="h-10 w-auto object-contain grayscale transition-all duration-300 hover:grayscale-0"
-            />
-          </div>
-        ))}
+      {/* All partner logos — single combined image */}
+      <div className="mx-auto max-w-5xl">
+        <Image
+          src="/partner_logos.png"
+          alt="Logos des partenaires de la Rein Padel Tour 2026"
+          width={597}
+          height={110}
+          className="w-full h-auto rounded-2xl"
+        />
       </div>
 
       {/* CTA — become a partner */}
       <div className="mt-10 text-center">
-        <a href="#">
-          <Button variant="outline">
-            <Fr>{"Devenir partenaire"}</Fr>
-          </Button>
+        <a
+          href="#"
+          className="rounded-full border border-brand-navy/30 px-5 py-2 text-sm font-display font-semibold text-brand-navy transition-colors hover:bg-brand-navy hover:text-white"
+        >
+          <Fr>{"Devenir partenaire"}</Fr>
         </a>
       </div>
     </SectionWrapper>

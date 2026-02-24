@@ -1,7 +1,6 @@
 import { PARTICIPATION_CARDS } from '@/lib/constants'
 import { Fr } from '@/lib/typography'
 import { SectionWrapper } from '@/components/ui/SectionWrapper'
-import { Button } from '@/components/ui/Button'
 
 /**
  * Inline SVG icons for participation cards.
@@ -110,7 +109,7 @@ export function ParticipationSection() {
         {PARTICIPATION_CARDS.map((card) => (
           <div
             key={card.title}
-            className="flex flex-col items-center rounded-2xl border border-blue-100 bg-white/60 p-8 text-center shadow-sm"
+            className="flex flex-col items-center rounded-3xl bg-white/60 p-8 text-center shadow-sm"
           >
             {/* Icon container — circular badge */}
             <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-blue-100/60 text-brand-navy">
@@ -127,11 +126,12 @@ export function ParticipationSection() {
               <Fr>{card.description}</Fr>
             </p>
 
-            {/* CTA button — variant from constants (blue/red/outline) */}
-            <a href={card.href}>
-              <Button variant={card.variant} size="md">
-                <Fr>{card.cta}</Fr>
-              </Button>
+            {/* CTA — slim outlined pill matching hero nav style */}
+            <a
+              href={card.href}
+              className="rounded-full border border-brand-navy/30 px-5 py-2 text-sm font-display font-semibold text-brand-navy transition-colors hover:bg-brand-navy hover:text-white"
+            >
+              <Fr>{card.cta}</Fr>
             </a>
           </div>
         ))}

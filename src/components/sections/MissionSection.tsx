@@ -12,7 +12,7 @@ import { FACT_NUMBERS } from '@/lib/constants'
  */
 export function MissionSection() {
   return (
-    <SectionWrapper id="mission" className="bg-blue-50">
+    <SectionWrapper id="mission" className="bg-white">
       <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
 
         {/* Left column — text + quote (MISS-02) */}
