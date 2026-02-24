@@ -13,7 +13,7 @@ Four phases take the project from an empty Next.js scaffold to a live, legally-c
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - Project scaffold, design tokens, fonts, shared UI primitives
-- [ ] **Phase 2: Content Sections** - All static page sections from Hero to Footer, fully responsive
+- [x] **Phase 2: Content Sections** - All static page sections from Hero to Footer, fully responsive
 - [ ] **Phase 3: Interactive Components** - Sticky navbar, animated SVG France map with 9 station markers
 - [ ] **Phase 4: Legal, SEO, and Launch** - Mentions legales, Open Graph metadata, Lighthouse audit
 
@@ -44,13 +44,13 @@ Plans:
   3. Mission section shows Antoine's quote and the three key-number fact cards (7,000 km / 1 rein / 9 villes)
   4. Disease section renders white text on dark blue with all impact statistics legible (WCAG AA contrast passes)
   5. Partners section shows the two-tier logo grid with grayscale-to-color hover effect; footer shows social icons and copyright
-**Plans:** 4/5 plans executed
+**Plans:** 5/5 plans executed (COMPLETE)
 Plans:
 - [x] 02-01-PLAN.md — Asset migration and constants data file
-- [ ] 02-02-PLAN.md — Hero and Mission sections
-- [ ] 02-03-PLAN.md — Disease and Participation sections
-- [ ] 02-04-PLAN.md — Partners and Footer sections
-- [ ] 02-05-PLAN.md — Page composition and visual verification
+- [x] 02-02-PLAN.md — Hero and Mission sections
+- [x] 02-03-PLAN.md — Disease and Participation sections
+- [x] 02-04-PLAN.md — Partners and Footer sections
+- [x] 02-05-PLAN.md — Page composition and visual verification
 
 ### Phase 3: Interactive Components
 **Goal**: The page is fully interactive — the navbar transitions from transparent to solid on scroll, the mobile menu opens and closes, and the France SVG map displays the animated kidney route with hoverable station markers
@@ -83,6 +83,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete | 2026-02-24 |
-| 2. Content Sections | 4/5 | In Progress|  |
+| 2. Content Sections | 5/5 | Complete | 2026-02-24 |
 | 3. Interactive Components | 0/TBD | Not started | - |
 | 4. Legal, SEO, and Launch | 0/TBD | Not started | - |

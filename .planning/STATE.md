@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-02-23)
 ## Current Position
 
 Phase: 2 of 4 (Content Sections)
-Plan: 4 of 5 in current phase
-Status: In progress
-Last activity: 2026-02-24 — Completed Plan 04 (PartnersSection + FooterSection)
+Plan: 5 of 5 in current phase (PHASE COMPLETE)
+Status: Phase 2 complete — ready for Phase 3
+Last activity: 2026-02-24 — Completed Plan 05 (One-pager composition + visual verification)
 
-Progress: [████░░░░░░] 40%
+Progress: [█████░░░░░] 50%
 
 ## Performance Metrics
 
@@ -37,6 +37,7 @@ Progress: [████░░░░░░] 40%
 *Updated after each plan completion*
 | Phase 02-content-sections P03 | 1m 23s | 2 tasks | 2 files |
 | Phase 02-content-sections P04 | 1m 7s | 2 tasks | 2 files |
+| Phase 02-content-sections P05 | 15 min | 2 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -63,6 +64,11 @@ Recent decisions affecting current work:
 - CTA links are anchor tags not Button component: semantic HTML for navigation links
 - [Phase 02-04]: Grayscale-to-color hover on partner logos uses Tailwind grayscale/grayscale-0 utilities (pure CSS, zero JS)
 - [Phase 02-04]: Inline SVG social icons (Instagram, Facebook) — two icons not worth adding an icon library
+- [Phase 02-05]: Hero uses padel court image (hero-bg.png) + bg-brand-navy/70 overlay — real photo beats CSS gradient for visual impact
+- [Phase 02-05]: Logo CSS size w-36 md:w-48 (increased from w-24 md:w-32) — stronger brand presence
+- [Phase 02-05]: Light sections use bg-blue-50 / bg-blue-100 variants — cohesive blueish palette matching navy brand
+- [Phase 02-05]: Fact cards horizontal flex (value + label) — more compact and readable at all viewports
+- [Phase 02-05]: FACT_NUMBERS order 9 villes → 10 jours → ~3000 km — narrative journey progression
 
 ### Pending Todos
 
@@ -76,5 +82,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-24
-Stopped at: Completed 02-04-PLAN.md — PartnersSection and FooterSection ready, all section components built, ready for Plan 05 page composition
+Stopped at: Completed 02-05-PLAN.md — Full one-pager composed and visually approved. Phase 2 complete. Ready for Phase 3 (Interactive Map).
 Resume file: None

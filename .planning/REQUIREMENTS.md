@@ -82,7 +82,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **PERF-01**: Lighthouse score >= 95 on mobile preset
 - [x] **PERF-02**: All images use next/image for automatic optimization
 - [ ] **PERF-03**: Fully responsive from 375px to 1440px+ (mobile-first)
-- [ ] **PERF-04**: Semantic HTML with alt texts on all images
+- [x] **PERF-04**: Semantic HTML with alt texts on all images
 - [ ] **PERF-05**: All French text uses correct non-breaking space typography
 
 ## v2 Requirements
@@ -176,7 +176,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PERF-01 | Phase 4 | Pending |
 | PERF-02 | Phase 2 | Complete |
 | PERF-03 | Phase 3 | Pending |
-| PERF-04 | Phase 2 | Pending |
+| PERF-04 | Phase 2 | Complete |
 | PERF-05 | Phase 4 | Pending |
 
 **Coverage:**
