@@ -5,33 +5,34 @@
 See: .planning/PROJECT.md (updated 2026-02-23)
 
 **Core value:** Visitors immediately understand what the Rein Padel Tour is, why it matters, and how they can get involved — in under 30 seconds.
-**Current focus:** Phase 1 - Foundation
+**Current focus:** Phase 2 - Content Sections
 
 ## Current Position
 
-Phase: 1 of 4 (Foundation)
-Plan: 2 of 2 in current phase
+Phase: 2 of 4 (Content Sections)
+Plan: 1 of 6 in current phase
 Status: In progress
-Last activity: 2026-02-24 — Completed Plan 02 (French typography, Button, SectionWrapper)
+Last activity: 2026-02-24 — Completed Plan 01 (image assets migration + constants.ts)
 
-Progress: [██░░░░░░░░] 20%
+Progress: [███░░░░░░░] 30%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 2
-- Average duration: 2.5 min
-- Total execution time: 0.08 hours
+- Total plans completed: 3
+- Average duration: 2.3 min
+- Total execution time: 0.11 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01-foundation | 2 | 5 min | 2.5 min |
+| 02-content-sections | 1 | 2 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (3 min), 01-02 (2 min)
-- Trend: Fast — primitives and utilities built efficiently
+- Last 5 plans: 01-01 (3 min), 01-02 (2 min), 02-01 (2 min)
+- Trend: Fast — asset migration and data constants built efficiently
 
 *Updated after each plan completion*
 
@@ -51,6 +52,10 @@ Recent decisions affecting current work:
 - Used .tsx extension for typography file: Fr JSX component requires .tsx — .ts causes esbuild "Unexpected >" error
 - Narrow NBSP (\u202F) for ? ! ; and regular NBSP (\u00A0) for : and guillemets: typographically distinct per Imprimerie nationale
 - Record<ButtonVariant, string> for Tailwind classes: prevents JIT purging of classes in dynamic template literals
+- Verified French medical stats (670 000 personnes, 30% dialyse, 0 curatif): REQUIREMENTS.md "1.5M" is worldwide figure; used AIRG-France/Orphanet numbers from content doc
+- FACT_NUMBERS uses CONTEXT.md override (9 villes, ~3 000 km, 10 jours): REQUIREMENTS.md values (10 cities, 7,000 km) were incorrect
+- French text stored as plain strings in constants.ts: Fr component applies typography at render time only
+- Partner logos at uniform size in single-tier grid: CONTEXT.md overrides REQUIREMENTS.md PRTN-01 two-tier distinction
 
 ### Pending Todos
 
@@ -64,5 +69,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-24
-Stopped at: Completed 01-02-PLAN.md — Phase 1 foundation complete, ready for Phase 2
+Stopped at: Completed 02-01-PLAN.md — image assets and constants ready, ready for Phase 2 section components
 Resume file: None

@@ -46,7 +46,7 @@ Plans:
   5. Partners section shows the two-tier logo grid with grayscale-to-color hover effect; footer shows social icons and copyright
 **Plans:** 5 plans
 Plans:
-- [ ] 02-01-PLAN.md — Asset migration and constants data file
+- [x] 02-01-PLAN.md — Asset migration and constants data file
 - [ ] 02-02-PLAN.md — Hero and Mission sections
 - [ ] 02-03-PLAN.md — Disease and Participation sections
 - [ ] 02-04-PLAN.md — Partners and Footer sections
@@ -83,6 +83,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete | 2026-02-24 |
-| 2. Content Sections | 0/5 | Not started | - |
+| 2. Content Sections | 1/5 | In progress | - |
 | 3. Interactive Components | 0/TBD | Not started | - |
 | 4. Legal, SEO, and Launch | 0/TBD | Not started | - |

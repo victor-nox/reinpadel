@@ -60,7 +60,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **PRTN-01**: Two-tier logo grid (main partners larger, partners smaller)
 - [ ] **PRTN-02**: Grayscale logos that show color on hover
 - [ ] **PRTN-03**: CTA to become a partner (placeholder href)
-- [ ] **PRTN-04**: Partner data sourced from lib/constants.ts
+- [x] **PRTN-04**: Partner data sourced from lib/constants.ts
 
 ### Footer
 
@@ -80,7 +80,7 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Performance & Quality
 
 - [ ] **PERF-01**: Lighthouse score >= 95 on mobile preset
-- [ ] **PERF-02**: All images use next/image for automatic optimization
+- [x] **PERF-02**: All images use next/image for automatic optimization
 - [ ] **PERF-03**: Fully responsive from 375px to 1440px+ (mobile-first)
 - [ ] **PERF-04**: Semantic HTML with alt texts on all images
 - [ ] **PERF-05**: All French text uses correct non-breaking space typography
@@ -163,7 +163,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PRTN-01 | Phase 2 | Pending |
 | PRTN-02 | Phase 2 | Pending |
 | PRTN-03 | Phase 2 | Pending |
-| PRTN-04 | Phase 2 | Pending |
+| PRTN-04 | Phase 2 | Complete |
 | FOOT-01 | Phase 2 | Pending |
 | FOOT-02 | Phase 2 | Pending |
 | FOOT-03 | Phase 2 | Pending |
@@ -174,7 +174,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | LEGL-03 | Phase 4 | Pending |
 | LEGL-04 | Phase 4 | Pending |
 | PERF-01 | Phase 4 | Pending |
-| PERF-02 | Phase 2 | Pending |
+| PERF-02 | Phase 2 | Complete |
 | PERF-03 | Phase 3 | Pending |
 | PERF-04 | Phase 2 | Pending |
 | PERF-05 | Phase 4 | Pending |
@@ -186,4 +186,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-02-23*
-*Last updated: 2026-02-24 after 01-01 execution — FOUN-01, FOUN-02, FOUN-03 complete*
+*Last updated: 2026-02-24 after 02-01 execution — PERF-02, PRTN-04 complete*
