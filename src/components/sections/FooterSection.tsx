@@ -23,7 +23,7 @@ export function FooterSection() {
               alt="Rein Padel Tour"
               width={424}
               height={424}
-              className="h-10 w-10 object-contain"
+              className="h-20 w-20 object-contain"
             />
             <span className="font-display text-sm font-semibold tracking-wide uppercase">
               Rein Padel Tour
@@ -48,7 +48,9 @@ export function FooterSection() {
           {/* Social icons */}
           <div className="flex gap-3">
             <a
-              href="#"
+              href="https://www.instagram.com/rein_padel_tour/"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Instagram"
               className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-white/70 transition-colors hover:border-white/40 hover:text-white"
             >
@@ -59,7 +61,9 @@ export function FooterSection() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.facebook.com/people/Rein-padel-tour/61580001025488/"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Facebook"
               className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-white/70 transition-colors hover:border-white/40 hover:text-white"
             >
