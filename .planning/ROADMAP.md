@@ -44,7 +44,13 @@ Plans:
   3. Mission section shows Antoine's quote and the three key-number fact cards (7,000 km / 1 rein / 9 villes)
   4. Disease section renders white text on dark blue with all impact statistics legible (WCAG AA contrast passes)
   5. Partners section shows the two-tier logo grid with grayscale-to-color hover effect; footer shows social icons and copyright
-**Plans**: TBD
+**Plans:** 5 plans
+Plans:
+- [ ] 02-01-PLAN.md — Asset migration and constants data file
+- [ ] 02-02-PLAN.md — Hero and Mission sections
+- [ ] 02-03-PLAN.md — Disease and Participation sections
+- [ ] 02-04-PLAN.md — Partners and Footer sections
+- [ ] 02-05-PLAN.md — Page composition and visual verification
 
 ### Phase 3: Interactive Components
 **Goal**: The page is fully interactive — the navbar transitions from transparent to solid on scroll, the mobile menu opens and closes, and the France SVG map displays the animated kidney route with hoverable station markers
@@ -77,6 +83,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete | 2026-02-24 |
-| 2. Content Sections | 0/TBD | Not started | - |
+| 2. Content Sections | 0/5 | Not started | - |
 | 3. Interactive Components | 0/TBD | Not started | - |
 | 4. Legal, SEO, and Launch | 0/TBD | Not started | - |
