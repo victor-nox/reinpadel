@@ -12,7 +12,7 @@ Four phases take the project from an empty Next.js scaffold to a live, legally-c
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Project scaffold, design tokens, fonts, shared UI primitives
+- [x] **Phase 1: Foundation** - Project scaffold, design tokens, fonts, shared UI primitives
 - [ ] **Phase 2: Content Sections** - All static page sections from Hero to Footer, fully responsive
 - [ ] **Phase 3: Interactive Components** - Sticky navbar, animated SVG France map with 9 station markers
 - [ ] **Phase 4: Legal, SEO, and Launch** - Mentions legales, Open Graph metadata, Lighthouse audit
@@ -32,7 +32,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans:** 2 plans
 Plans:
 - [x] 01-01-PLAN.md — Scaffold Next.js 15, design tokens, and Google Fonts
-- [ ] 01-02-PLAN.md — French typography utility and UI primitives (Button, SectionWrapper)
+- [x] 01-02-PLAN.md — French typography utility and UI primitives (Button, SectionWrapper)
 
 ### Phase 2: Content Sections
 **Goal**: A fully scrollable one-pager where visitors can read the complete story — from the hero headline to the footer — on any device, with all images optimized and all French copy correct
@@ -76,7 +76,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 1/2 | In progress | - |
+| 1. Foundation | 2/2 | Complete | 2026-02-24 |
 | 2. Content Sections | 0/TBD | Not started | - |
 | 3. Interactive Components | 0/TBD | Not started | - |
 | 4. Legal, SEO, and Launch | 0/TBD | Not started | - |
