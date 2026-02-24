@@ -133,57 +133,57 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUN-01 | — | Pending |
-| FOUN-02 | — | Pending |
-| FOUN-03 | — | Pending |
-| FOUN-04 | — | Pending |
-| FOUN-05 | — | Pending |
-| NAV-01 | — | Pending |
-| NAV-02 | — | Pending |
-| NAV-03 | — | Pending |
-| NAV-04 | — | Pending |
-| HERO-01 | — | Pending |
-| HERO-02 | — | Pending |
-| HERO-03 | — | Pending |
-| HERO-04 | — | Pending |
-| HERO-05 | — | Pending |
-| MISS-01 | — | Pending |
-| MISS-02 | — | Pending |
-| MISS-03 | — | Pending |
-| DISE-01 | — | Pending |
-| DISE-02 | — | Pending |
-| DISE-03 | — | Pending |
-| ROUT-01 | — | Pending |
-| ROUT-02 | — | Pending |
-| ROUT-03 | — | Pending |
-| ROUT-04 | — | Pending |
-| PART-01 | — | Pending |
-| PART-02 | — | Pending |
-| PART-03 | — | Pending |
-| PRTN-01 | — | Pending |
-| PRTN-02 | — | Pending |
-| PRTN-03 | — | Pending |
-| PRTN-04 | — | Pending |
-| FOOT-01 | — | Pending |
-| FOOT-02 | — | Pending |
-| FOOT-03 | — | Pending |
-| FOOT-04 | — | Pending |
-| FOOT-05 | — | Pending |
-| LEGL-01 | — | Pending |
-| LEGL-02 | — | Pending |
-| LEGL-03 | — | Pending |
-| LEGL-04 | — | Pending |
-| PERF-01 | — | Pending |
-| PERF-02 | — | Pending |
-| PERF-03 | — | Pending |
-| PERF-04 | — | Pending |
-| PERF-05 | — | Pending |
+| FOUN-01 | Phase 1 | Pending |
+| FOUN-02 | Phase 1 | Pending |
+| FOUN-03 | Phase 1 | Pending |
+| FOUN-04 | Phase 1 | Pending |
+| FOUN-05 | Phase 1 | Pending |
+| NAV-01 | Phase 3 | Pending |
+| NAV-02 | Phase 3 | Pending |
+| NAV-03 | Phase 3 | Pending |
+| NAV-04 | Phase 3 | Pending |
+| HERO-01 | Phase 2 | Pending |
+| HERO-02 | Phase 2 | Pending |
+| HERO-03 | Phase 2 | Pending |
+| HERO-04 | Phase 2 | Pending |
+| HERO-05 | Phase 2 | Pending |
+| MISS-01 | Phase 2 | Pending |
+| MISS-02 | Phase 2 | Pending |
+| MISS-03 | Phase 2 | Pending |
+| DISE-01 | Phase 2 | Pending |
+| DISE-02 | Phase 2 | Pending |
+| DISE-03 | Phase 2 | Pending |
+| ROUT-01 | Phase 3 | Pending |
+| ROUT-02 | Phase 3 | Pending |
+| ROUT-03 | Phase 3 | Pending |
+| ROUT-04 | Phase 3 | Pending |
+| PART-01 | Phase 2 | Pending |
+| PART-02 | Phase 2 | Pending |
+| PART-03 | Phase 2 | Pending |
+| PRTN-01 | Phase 2 | Pending |
+| PRTN-02 | Phase 2 | Pending |
+| PRTN-03 | Phase 2 | Pending |
+| PRTN-04 | Phase 2 | Pending |
+| FOOT-01 | Phase 2 | Pending |
+| FOOT-02 | Phase 2 | Pending |
+| FOOT-03 | Phase 2 | Pending |
+| FOOT-04 | Phase 2 | Pending |
+| FOOT-05 | Phase 2 | Pending |
+| LEGL-01 | Phase 4 | Pending |
+| LEGL-02 | Phase 4 | Pending |
+| LEGL-03 | Phase 4 | Pending |
+| LEGL-04 | Phase 4 | Pending |
+| PERF-01 | Phase 4 | Pending |
+| PERF-02 | Phase 2 | Pending |
+| PERF-03 | Phase 3 | Pending |
+| PERF-04 | Phase 2 | Pending |
+| PERF-05 | Phase 4 | Pending |
 
 **Coverage:**
 - v1 requirements: 45 total
-- Mapped to phases: 0
-- Unmapped: 45
+- Mapped to phases: 45
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-23*
-*Last updated: 2026-02-23 after initial definition*
+*Last updated: 2026-02-23 after roadmap creation — all 45 requirements mapped*
