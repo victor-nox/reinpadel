@@ -31,7 +31,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   5. SectionWrapper and Button primitives render in isolation with correct padding and contrast
 **Plans:** 2 plans
 Plans:
-- [ ] 01-01-PLAN.md — Scaffold Next.js 15, design tokens, and Google Fonts
+- [x] 01-01-PLAN.md — Scaffold Next.js 15, design tokens, and Google Fonts
 - [ ] 01-02-PLAN.md — French typography utility and UI primitives (Button, SectionWrapper)
 
 ### Phase 2: Content Sections
@@ -76,7 +76,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/2 | Planning complete | - |
+| 1. Foundation | 1/2 | In progress | - |
 | 2. Content Sections | 0/TBD | Not started | - |
 | 3. Interactive Components | 0/TBD | Not started | - |
 | 4. Legal, SEO, and Launch | 0/TBD | Not started | - |

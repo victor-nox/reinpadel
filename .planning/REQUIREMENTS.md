@@ -9,9 +9,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Foundation
 
-- [ ] **FOUN-01**: Project scaffolded with Next.js 15 (App Router), TypeScript, Tailwind CSS v4
-- [ ] **FOUN-02**: Custom design tokens defined (colors, fonts, spacing) matching poster identity
-- [ ] **FOUN-03**: Montserrat and Inter fonts loaded via next/font with zero CLS
+- [x] **FOUN-01**: Project scaffolded with Next.js 15 (App Router), TypeScript, Tailwind CSS v4
+- [x] **FOUN-02**: Custom design tokens defined (colors, fonts, spacing) matching poster identity
+- [x] **FOUN-03**: Montserrat and Inter fonts loaded via next/font with zero CLS
 - [ ] **FOUN-04**: French typography utility with non-breaking spaces before : ? ! ;
 - [ ] **FOUN-05**: Shared UI primitives (SectionWrapper, Button) established
 
@@ -133,9 +133,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUN-01 | Phase 1 | Pending |
-| FOUN-02 | Phase 1 | Pending |
-| FOUN-03 | Phase 1 | Pending |
+| FOUN-01 | Phase 1 | Complete |
+| FOUN-02 | Phase 1 | Complete |
+| FOUN-03 | Phase 1 | Complete |
 | FOUN-04 | Phase 1 | Pending |
 | FOUN-05 | Phase 1 | Pending |
 | NAV-01 | Phase 3 | Pending |
@@ -186,4 +186,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-02-23*
-*Last updated: 2026-02-23 after roadmap creation — all 45 requirements mapped*
+*Last updated: 2026-02-24 after 01-01 execution — FOUN-01, FOUN-02, FOUN-03 complete*
