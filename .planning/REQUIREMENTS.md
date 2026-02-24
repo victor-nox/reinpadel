@@ -24,23 +24,23 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Hero
 
-- [ ] **HERO-01**: Fullscreen hero section with logo, headline "REIN PADEL TOUR 2026", and subheadline
-- [ ] **HERO-02**: Date badge "6 – 15 MARS 2026" in pill shape with red background
-- [ ] **HERO-03**: Primary CTA button "Participez a l'aventure" (placeholder href)
-- [ ] **HERO-04**: Secondary ghost CTA button "Decouvrir la mission" (scrolls to Mission)
-- [ ] **HERO-05**: Hero image/background eager-loaded for LCP performance
+- [x] **HERO-01**: Fullscreen hero section with logo, headline "REIN PADEL TOUR 2026", and subheadline
+- [x] **HERO-02**: Date badge "6 – 15 MARS 2026" in pill shape with red background
+- [x] **HERO-03**: Primary CTA button "Participez a l'aventure" (placeholder href)
+- [x] **HERO-04**: Secondary ghost CTA button "Decouvrir la mission" (scrolls to Mission)
+- [x] **HERO-05**: Hero image/background eager-loaded for LCP performance
 
 ### Mission
 
-- [ ] **MISS-01**: Two-column layout (text left, facts right) on desktop, stacked on mobile
-- [ ] **MISS-02**: Project explanation text with Antoine's personal quote (blockquote style)
-- [ ] **MISS-03**: 3 fact cards displaying key numbers (7,000 km / 1 rein / 9 villes)
+- [x] **MISS-01**: Two-column layout (text left, facts right) on desktop, stacked on mobile
+- [x] **MISS-02**: Project explanation text with Antoine's personal quote (blockquote style)
+- [x] **MISS-03**: 3 fact cards displaying key numbers (7,000 km / 1 rein / 9 villes)
 
 ### Disease
 
-- [ ] **DISE-01**: Dark blue background section explaining Berger's disease
-- [ ] **DISE-02**: Impact statistics strip (1.5M affected / 10% terminal / 0 cures)
-- [ ] **DISE-03**: White text on dark background with sufficient WCAG contrast
+- [x] **DISE-01**: Dark blue background section explaining Berger's disease
+- [x] **DISE-02**: Impact statistics strip (1.5M affected / 10% terminal / 0 cures)
+- [x] **DISE-03**: White text on dark background with sufficient WCAG contrast
 
 ### Route
 
@@ -51,9 +51,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Participation
 
-- [ ] **PART-01**: 3-card layout (Jouez, Donnez, Devenez Partenaire) on desktop, stacked on mobile
-- [ ] **PART-02**: Each card has icon, title, description, and CTA button (placeholder href)
-- [ ] **PART-03**: Distinct button styles per card (blue, red, outline)
+- [x] **PART-01**: 3-card layout (Jouez, Donnez, Devenez Partenaire) on desktop, stacked on mobile
+- [x] **PART-02**: Each card has icon, title, description, and CTA button (placeholder href)
+- [x] **PART-03**: Distinct button styles per card (blue, red, outline)
 
 ### Partners
 
@@ -142,24 +142,24 @@ Which phases cover which requirements. Updated during roadmap creation.
 | NAV-02 | Phase 3 | Pending |
 | NAV-03 | Phase 3 | Pending |
 | NAV-04 | Phase 3 | Pending |
-| HERO-01 | Phase 2 | Pending |
-| HERO-02 | Phase 2 | Pending |
-| HERO-03 | Phase 2 | Pending |
-| HERO-04 | Phase 2 | Pending |
-| HERO-05 | Phase 2 | Pending |
-| MISS-01 | Phase 2 | Pending |
-| MISS-02 | Phase 2 | Pending |
-| MISS-03 | Phase 2 | Pending |
-| DISE-01 | Phase 2 | Pending |
-| DISE-02 | Phase 2 | Pending |
-| DISE-03 | Phase 2 | Pending |
+| HERO-01 | Phase 2 | Complete |
+| HERO-02 | Phase 2 | Complete |
+| HERO-03 | Phase 2 | Complete |
+| HERO-04 | Phase 2 | Complete |
+| HERO-05 | Phase 2 | Complete |
+| MISS-01 | Phase 2 | Complete |
+| MISS-02 | Phase 2 | Complete |
+| MISS-03 | Phase 2 | Complete |
+| DISE-01 | Phase 2 | Complete |
+| DISE-02 | Phase 2 | Complete |
+| DISE-03 | Phase 2 | Complete |
 | ROUT-01 | Phase 3 | Pending |
 | ROUT-02 | Phase 3 | Pending |
 | ROUT-03 | Phase 3 | Pending |
 | ROUT-04 | Phase 3 | Pending |
-| PART-01 | Phase 2 | Pending |
-| PART-02 | Phase 2 | Pending |
-| PART-03 | Phase 2 | Pending |
+| PART-01 | Phase 2 | Complete |
+| PART-02 | Phase 2 | Complete |
+| PART-03 | Phase 2 | Complete |
 | PRTN-01 | Phase 2 | Pending |
 | PRTN-02 | Phase 2 | Pending |
 | PRTN-03 | Phase 2 | Pending |

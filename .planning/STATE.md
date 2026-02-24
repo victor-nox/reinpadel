@@ -10,31 +10,33 @@ See: .planning/PROJECT.md (updated 2026-02-23)
 ## Current Position
 
 Phase: 2 of 4 (Content Sections)
-Plan: 1 of 6 in current phase
+Plan: 4 of 5 in current phase
 Status: In progress
-Last activity: 2026-02-24 — Completed Plan 01 (image assets migration + constants.ts)
+Last activity: 2026-02-24 — Completed Plan 04 (PartnersSection + FooterSection)
 
-Progress: [███░░░░░░░] 30%
+Progress: [████░░░░░░] 40%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 3
-- Average duration: 2.3 min
-- Total execution time: 0.11 hours
+- Total plans completed: 4
+- Average duration: 2 min
+- Total execution time: 0.13 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01-foundation | 2 | 5 min | 2.5 min |
-| 02-content-sections | 1 | 2 min | 2 min |
+| 02-content-sections | 2 | 4 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (3 min), 01-02 (2 min), 02-01 (2 min)
-- Trend: Fast — asset migration and data constants built efficiently
+- Last 5 plans: 01-01 (3 min), 01-02 (2 min), 02-01 (2 min), 02-02 (2 min), 02-04 (1 min)
+- Trend: Fast — section components building efficiently from constants and design spec
 
 *Updated after each plan completion*
+| Phase 02-content-sections P03 | 1m 23s | 2 tasks | 2 files |
+| Phase 02-content-sections P04 | 1m 7s | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -56,6 +58,11 @@ Recent decisions affecting current work:
 - FACT_NUMBERS uses CONTEXT.md override (9 villes, ~3 000 km, 10 jours): REQUIREMENTS.md values (10 cities, 7,000 km) were incorrect
 - French text stored as plain strings in constants.ts: Fr component applies typography at render time only
 - Partner logos at uniform size in single-tier grid: CONTEXT.md overrides REQUIREMENTS.md PRTN-01 two-tier distinction
+- [Phase 02-03]: Inline SVG icons for CardIcon (no icon library) keeps bundle size zero
+- HeroSection does not use SectionWrapper: hero needs full-width gradient with py-20/py-32 vs standard py-16/py-24
+- CTA links are anchor tags not Button component: semantic HTML for navigation links
+- [Phase 02-04]: Grayscale-to-color hover on partner logos uses Tailwind grayscale/grayscale-0 utilities (pure CSS, zero JS)
+- [Phase 02-04]: Inline SVG social icons (Instagram, Facebook) — two icons not worth adding an icon library
 
 ### Pending Todos
 
@@ -69,5 +76,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-24
-Stopped at: Completed 02-01-PLAN.md — image assets and constants ready, ready for Phase 2 section components
+Stopped at: Completed 02-02-PLAN.md — HeroSection and MissionSection ready for page composition in Plan 05
 Resume file: None
