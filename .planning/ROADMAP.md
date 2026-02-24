@@ -29,7 +29,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Montserrat and Inter fonts render via `next/font` with zero layout shift (CLS = 0 in DevTools)
   4. A French text sample using the typography utility renders non-breaking spaces correctly before `: ? ! ;`
   5. SectionWrapper and Button primitives render in isolation with correct padding and contrast
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 01-01-PLAN.md — Scaffold Next.js 15, design tokens, and Google Fonts
+- [ ] 01-02-PLAN.md — French typography utility and UI primitives (Button, SectionWrapper)
 
 ### Phase 2: Content Sections
 **Goal**: A fully scrollable one-pager where visitors can read the complete story — from the hero headline to the footer — on any device, with all images optimized and all French copy correct
@@ -73,7 +76,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/TBD | Not started | - |
+| 1. Foundation | 0/2 | Planning complete | - |
 | 2. Content Sections | 0/TBD | Not started | - |
 | 3. Interactive Components | 0/TBD | Not started | - |
 | 4. Legal, SEO, and Launch | 0/TBD | Not started | - |
