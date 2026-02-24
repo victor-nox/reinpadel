@@ -43,9 +43,14 @@ export function TourSection() {
               </span>
               {stop.city ? (
                 <>
-                  <span className="font-display text-lg font-bold text-brand-navy">
+                  <a
+                    href={stop.instagram ?? '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-display text-lg font-bold text-brand-navy underline-offset-4 transition-colors hover:underline"
+                  >
                     {stop.city}
-                  </span>
+                  </a>
                   {stop.tag && (
                     <span className="rounded-full bg-brand-coral px-2.5 py-0.5 text-xs font-bold uppercase tracking-wide text-white">
                       {stop.tag}
