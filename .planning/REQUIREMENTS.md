@@ -57,18 +57,18 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Partners
 
-- [ ] **PRTN-01**: Two-tier logo grid (main partners larger, partners smaller)
-- [ ] **PRTN-02**: Grayscale logos that show color on hover
-- [ ] **PRTN-03**: CTA to become a partner (placeholder href)
+- [x] **PRTN-01**: Two-tier logo grid (main partners larger, partners smaller)
+- [x] **PRTN-02**: Grayscale logos that show color on hover
+- [x] **PRTN-03**: CTA to become a partner (placeholder href)
 - [x] **PRTN-04**: Partner data sourced from lib/constants.ts
 
 ### Footer
 
-- [ ] **FOOT-01**: Dark blue footer with 3-column layout (logo+text, links, social)
-- [ ] **FOOT-02**: Mission statement text
-- [ ] **FOOT-03**: Section navigation links and legal page links
-- [ ] **FOOT-04**: Social media icons (Instagram, Facebook)
-- [ ] **FOOT-05**: Copyright line
+- [x] **FOOT-01**: Dark blue footer with 3-column layout (logo+text, links, social)
+- [x] **FOOT-02**: Mission statement text
+- [x] **FOOT-03**: Section navigation links and legal page links
+- [x] **FOOT-04**: Social media icons (Instagram, Facebook)
+- [x] **FOOT-05**: Copyright line
 
 ### Legal & SEO
 
@@ -160,15 +160,15 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PART-01 | Phase 2 | Complete |
 | PART-02 | Phase 2 | Complete |
 | PART-03 | Phase 2 | Complete |
-| PRTN-01 | Phase 2 | Pending |
-| PRTN-02 | Phase 2 | Pending |
-| PRTN-03 | Phase 2 | Pending |
+| PRTN-01 | Phase 2 | Complete |
+| PRTN-02 | Phase 2 | Complete |
+| PRTN-03 | Phase 2 | Complete |
 | PRTN-04 | Phase 2 | Complete |
-| FOOT-01 | Phase 2 | Pending |
-| FOOT-02 | Phase 2 | Pending |
-| FOOT-03 | Phase 2 | Pending |
-| FOOT-04 | Phase 2 | Pending |
-| FOOT-05 | Phase 2 | Pending |
+| FOOT-01 | Phase 2 | Complete |
+| FOOT-02 | Phase 2 | Complete |
+| FOOT-03 | Phase 2 | Complete |
+| FOOT-04 | Phase 2 | Complete |
+| FOOT-05 | Phase 2 | Complete |
 | LEGL-01 | Phase 4 | Pending |
 | LEGL-02 | Phase 4 | Pending |
 | LEGL-03 | Phase 4 | Pending |
