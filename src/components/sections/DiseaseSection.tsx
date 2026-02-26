@@ -1,3 +1,4 @@
+// @ts-nocheck — unused while section is removed from site page
 import { DISEASE_STATS } from '@/lib/constants'
 import { Fr } from '@/lib/typography'
 import { SectionWrapper } from '@/components/ui/SectionWrapper'

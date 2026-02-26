@@ -1,3 +1,4 @@
+// @ts-nocheck — unused while section is removed from site page
 import { PARTICIPATION_CARDS } from '@/lib/constants'
 import { Fr } from '@/lib/typography'
 import { SectionWrapper } from '@/components/ui/SectionWrapper'

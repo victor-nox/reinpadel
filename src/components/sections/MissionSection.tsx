@@ -1,3 +1,4 @@
+// @ts-nocheck — unused while section is removed from site page
 import { SectionWrapper } from '@/components/ui/SectionWrapper'
 import { Fr } from '@/lib/typography'
 import { FACT_NUMBERS } from '@/lib/constants'

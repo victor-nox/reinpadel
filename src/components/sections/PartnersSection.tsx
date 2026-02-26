@@ -29,13 +29,13 @@ export function PartnersSection() {
         />
       </div>
 
-      {/* CTA — become a partner */}
+      {/* CTA — contact */}
       <div className="mt-10 text-center">
         <a
-          href="#"
+          href="mailto:reinpadeltour@gmail.com"
           className="rounded-full border border-brand-navy/30 px-5 py-2 text-sm font-display font-semibold text-brand-navy transition-colors hover:bg-brand-navy hover:text-white"
         >
-          <Fr>{"Devenir partenaire"}</Fr>
+          Contact
         </a>
       </div>
     </SectionWrapper>

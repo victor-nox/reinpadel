@@ -33,13 +33,7 @@ export function FooterSection() {
           {/* Navigation — minimal underline links */}
           <nav aria-label="Navigation du pied de page">
             <ul className="flex flex-wrap items-center justify-center gap-x-1 gap-y-2 text-sm">
-              <li><a href="#mission" className="text-white/60 underline-offset-4 transition-colors hover:text-white hover:underline">La mission</a></li>
-              <li className="text-white/30">·</li>
               <li><a href="#etapes" className="text-white/60 underline-offset-4 transition-colors hover:text-white hover:underline"><Fr>{"Les etapes"}</Fr></a></li>
-              <li className="text-white/30">·</li>
-              <li><a href="#maladie" className="text-white/60 underline-offset-4 transition-colors hover:text-white hover:underline">La maladie</a></li>
-              <li className="text-white/30">·</li>
-              <li><a href="#participer" className="text-white/60 underline-offset-4 transition-colors hover:text-white hover:underline">Participer</a></li>
               <li className="text-white/30">·</li>
               <li><a href="#partenaires" className="text-white/60 underline-offset-4 transition-colors hover:text-white hover:underline">Partenaires</a></li>
             </ul>

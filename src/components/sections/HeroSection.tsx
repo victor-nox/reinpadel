@@ -58,24 +58,6 @@ export function HeroSection() {
           <Fr>{"TOURNOIS AMICAUX CARITATIFS SUR TOUTE LA FRANCE"}</Fr>
         </p>
 
-        {/* Section navigation */}
-        <nav className="flex flex-wrap justify-center gap-3">
-          <a href="#mission" className="rounded-full border border-white/40 px-5 py-2 text-sm font-display font-semibold text-white/80 transition-colors hover:bg-white/10 hover:text-white">
-            La Mission
-          </a>
-          <a href="#etapes" className="rounded-full border border-white/40 px-5 py-2 text-sm font-display font-semibold text-white/80 transition-colors hover:bg-white/10 hover:text-white">
-            <Fr>{"Les Etapes"}</Fr>
-          </a>
-          <a href="#maladie" className="rounded-full border border-white/40 px-5 py-2 text-sm font-display font-semibold text-white/80 transition-colors hover:bg-white/10 hover:text-white">
-            La Maladie
-          </a>
-          <a href="#participer" className="rounded-full border border-white/40 px-5 py-2 text-sm font-display font-semibold text-white/80 transition-colors hover:bg-white/10 hover:text-white">
-            Participer
-          </a>
-          <a href="#partenaires" className="rounded-full border border-white/40 px-5 py-2 text-sm font-display font-semibold text-white/80 transition-colors hover:bg-white/10 hover:text-white">
-            Partenaires
-          </a>
-        </nav>
       </div>
     </section>
   )
