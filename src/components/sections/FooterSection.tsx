@@ -72,10 +72,6 @@ export function FooterSection() {
         <div className="mt-8 border-t border-white/10 pt-6 text-center">
           <p className="text-xs text-white/40">
             <Fr>{"© 2026 Rein Padel Tour. Tous droits reserves."}</Fr>
-            <span className="mx-2">·</span>
-            <a href="/mentions-legales" className="text-white/40 transition-colors hover:text-white/70">
-              <Fr>{"Mentions legales"}</Fr>
-            </a>
           </p>
         </div>
       </div>

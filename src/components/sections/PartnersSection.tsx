@@ -35,7 +35,7 @@ export function PartnersSection() {
           href="mailto:reinpadeltour@gmail.com"
           className="rounded-full border border-brand-navy/30 px-5 py-2 text-sm font-display font-semibold text-brand-navy transition-colors hover:bg-brand-navy hover:text-white"
         >
-          Contact
+          reinpadeltour@gmail.com
         </a>
       </div>
     </SectionWrapper>

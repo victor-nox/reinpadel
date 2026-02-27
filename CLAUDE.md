@@ -23,7 +23,7 @@ No test framework is configured.
 Two-route structure with a pre-launch gate:
 
 - `/` (`src/app/page.tsx`) — **Coming Soon** page with passcode input. Entering the correct passcode redirects to `/site`. This is a `'use client'` component.
-- `/site` (`src/app/site/page.tsx`) — **Full website** composing all section components in order: Hero → Mission → Tour → Disease → Participation → Partners → Footer.
+- `/site` (`src/app/site/page.tsx`) — **Full website** composing section components in order: Hero → Tour → Partners → Footer. Three additional sections (Mission, Disease, Participation) exist in `src/components/sections/` but are currently disabled (`@ts-nocheck`) and not rendered — their required constants were removed from `constants.ts` when scope was reduced.
 
 ### Deployment
 
@@ -40,7 +40,7 @@ Static export via `output: 'export'` in `next.config.ts`:
 - `src/components/ui/SectionWrapper.tsx` — Consistent section layout (padding, max-width container). Most sections use this.
 - `src/components/ui/Button.tsx` — Pill button with 5 variants (`primary`, `ghost`, `blue`, `red`, `outline`) and 3 sizes
 - `src/app/globals.css` — Tailwind v4 `@theme` block defining brand colors and font families
-- `srv/` — Design assets, specs, and source text (not deployed)
+- `srv/` — Design assets, specs, and source text (not deployed). `srv/spec/rpt-website-spec.md` contains the full website specification; `srv/txt/` has source copy; `srv/grafic/` has logos and images
 
 ## Tech Stack
 
