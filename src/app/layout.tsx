@@ -17,15 +17,15 @@ const inter = Inter({
 const siteUrl = 'https://reinpadeltour.com'
 
 export const metadata: Metadata = {
-  title: 'Rein Padel Tour 2026 — Tournoi caritatif contre la maladie de Berger',
+  title: 'Rein Padel Tour 2026 — Tournoi caritatif contre la maladie rénale',
   description:
-    '10 jours, 9 villes, ~3 000 km : tournois amicaux de padel a travers la France pour sensibiliser a la nephropathie a IgA (maladie de Berger) et soutenir la recherche. 6-15 mars 2026.',
+    '10 jours, 9 villes, ~3 000 km : tournois amicaux de padel à travers la France pour sensibiliser à la maladie rénale (maladie de Berger) et soutenir la recherche. 6–15 mars 2026.',
   keywords: [
     'Rein Padel Tour',
     'padel',
     'tournoi caritatif',
     'maladie de Berger',
-    'nephropathie a IgA',
+    'maladie rénale',
     'charity padel',
     'France',
     '2026',
@@ -35,30 +35,33 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Rein Padel Tour 2026',
     description:
-      '10 jours de tournois caritatifs de padel a travers la France pour la recherche contre la maladie de Berger. 6-15 mars 2026.',
+      '10 jours de tournois caritatifs de padel à travers la France pour la recherche contre la maladie rénale. 6–15 mars 2026.',
     url: siteUrl,
     siteName: 'Rein Padel Tour',
     locale: 'fr_FR',
     type: 'website',
     images: [
       {
-        url: '/rpt_logo.png',
-        width: 424,
-        height: 424,
-        alt: 'Logo Rein Padel Tour 2026',
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Rein Padel Tour 2026 — Tournoi caritatif de padel à travers la France',
       },
     ],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'Rein Padel Tour 2026',
     description:
-      '10 jours de tournois caritatifs de padel a travers la France pour la recherche contre la maladie de Berger.',
-    images: ['/rpt_logo.png'],
+      '10 jours de tournois caritatifs de padel à travers la France pour la recherche contre la maladie rénale.',
+    images: ['/og-image.png'],
   },
   robots: {
     index: true,
     follow: true,
+  },
+  other: {
+    'theme-color': '#1a3a8a',
   },
 }
 
