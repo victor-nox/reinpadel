@@ -20,10 +20,9 @@ No test framework is configured.
 
 ### Routing
 
-Two-route structure with a pre-launch gate:
+Single-page site:
 
-- `/` (`src/app/page.tsx`) — **Coming Soon** page with passcode input. Entering the correct passcode redirects to `/site`. This is a `'use client'` component.
-- `/site` (`src/app/site/page.tsx`) — **Full website** composing section components in order: Hero → Tour → Partners → Footer. Three additional sections (Mission, Disease, Participation) exist in `src/components/sections/` but are currently disabled (`@ts-nocheck`) and not rendered — their required constants were removed from `constants.ts` when scope was reduced.
+- `/` (`src/app/page.tsx`) — Composes section components in order: Hero → Tour → Partners → Footer. Three additional sections (Mission, Disease, Participation) exist in `src/components/sections/` but are currently disabled (`@ts-nocheck`) and not rendered — their required constants were removed from `constants.ts` when scope was reduced.
 
 ### Deployment
 
