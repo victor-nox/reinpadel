@@ -29,8 +29,16 @@ export function PartnersSection() {
         />
       </div>
 
-      {/* CTA — contact */}
-      <div className="mt-10 text-center">
+      {/* CTA — donation and contact */}
+      <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+        <a
+          href="https://www.payasso.fr/rein-padel-tour/don"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-full bg-brand-coral px-5 py-2 text-sm font-display font-semibold text-white transition-colors hover:bg-brand-coral/85"
+        >
+          <Fr>{"Faire un don"}</Fr>
+        </a>
         <a
           href="mailto:reinpadeltour@gmail.com"
           className="rounded-full border border-brand-navy/30 px-5 py-2 text-sm font-display font-semibold text-brand-navy transition-colors hover:bg-brand-navy hover:text-white"
