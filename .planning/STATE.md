@@ -12,7 +12,7 @@ See: .planning/PROJECT.md (updated 2026-02-23)
 Phase: 2 of 4 (Content Sections)
 Plan: 5 of 5 in current phase (PHASE COMPLETE)
 Status: Phase 2 complete — ready for Phase 3
-Last activity: 2026-02-24 — Completed Plan 05 (One-pager composition + visual verification)
+Last activity: 2026-03-03 - Completed quick task 1: YouTube video embed + donation link
 
 Progress: [█████░░░░░] 50%
 
@@ -73,6 +73,12 @@ Recent decisions affecting current work:
 ### Pending Todos
 
 None yet.
+
+### Quick Tasks Completed
+
+| # | Description | Date | Commit | Directory |
+|---|-------------|------|--------|-----------|
+| 1 | YouTube video embed + donation link | 2026-03-03 | 5d23a10 | [1-youtube-video-embed-donation-link](./quick/1-youtube-video-embed-donation-link/) |
 
 ### Blockers/Concerns
 
