@@ -1,4 +1,5 @@
 import { HeroSection } from '@/components/sections/HeroSection'
+import { VideoSection } from '@/components/sections/VideoSection'
 import { TourSection } from '@/components/sections/TourSection'
 import { PartnersSection } from '@/components/sections/PartnersSection'
 import { FooterSection } from '@/components/sections/FooterSection'
@@ -35,6 +36,7 @@ export default function HomePage() {
       />
       <main>
         <HeroSection />
+        <VideoSection />
         <TourSection />
         <PartnersSection />
       </main>
