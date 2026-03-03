@@ -35,7 +35,7 @@ export function PartnersSection() {
           href="https://www.payasso.fr/rein-padel-tour/don"
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-full bg-brand-coral px-5 py-2 text-sm font-display font-semibold text-white transition-colors hover:bg-brand-coral/85"
+          className="rounded-full border border-brand-navy/30 px-5 py-2 text-sm font-display font-semibold text-brand-navy transition-colors hover:bg-brand-navy hover:text-white"
         >
           <Fr>{"Faire un don"}</Fr>
         </a>
