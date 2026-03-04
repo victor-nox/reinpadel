@@ -32,16 +32,21 @@ export async function POST(request: NextRequest) {
     const now = new Date();
     const today = now.toISOString().split('T')[0];
     const hour = now.getUTCHours();
+    const dayOfWeek = now.getUTCDay(); // 0=Sun, 6=Sat
     
     // Create visitor hash
     const visitorHash = await hashString(ip + userAgent + today);
+    const visitorHashAll = await hashString(ip + userAgent); // for all-time unique
     
     await Promise.all([
       redis.incr('stats:views:total'),
       redis.incr(`stats:views:${today}`),
       redis.incr(`stats:pages:${page || '/'}`),
       redis.incr(`stats:hours:${today}:${hour}`),
+      redis.incr(`stats:hourly:${hour}`), // aggregate hourly
+      redis.incr(`stats:weekday:${dayOfWeek}`), // day of week
       redis.incr(`stats:countries:${country}`),
+      redis.incr(`stats:cities:${country}:${city}`), // city tracking
       redis.sadd(`stats:unique:${today}`, visitorHash),
       redis.sadd('stats:unique:all', visitorHash),
       redis.incr(`stats:devices:${device}`),
@@ -50,13 +55,17 @@ export async function POST(request: NextRequest) {
       referrer && !referrer.includes('reinpadel') 
         ? redis.incr(`stats:referrers:${encodeURIComponent(referrer.substring(0, 100))}`)
         : Promise.resolve(),
-      redis.setex(`stats:live:${visitorHash}`, 300, page || '/'),
+      // Check if returning visitor
+      redis.sismember('stats:unique:all', visitorHashAll).then(isReturning => 
+        isReturning ? redis.incr('stats:returning') : redis.incr('stats:new')
+      ),
+      redis.setex(`stats:live:${visitorHash}`, 300, JSON.stringify({ page, country, city })),
       redis.lpush('stats:recent', JSON.stringify({
         page, country, city, region, device, browser,
         time: now.toISOString(),
         referrer: referrer?.substring(0, 100) || null
       })),
-      redis.ltrim('stats:recent', 0, 99),
+      redis.ltrim('stats:recent', 0, 199), // Keep more recent
     ]);
 
     return NextResponse.json({ ok: true });

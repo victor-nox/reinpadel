@@ -51,7 +51,23 @@ export async function GET(request: NextRequest) {
       return stats.sort((a, b) => (b.views as number) - (a.views as number));
     };
 
-    const [pageStats, countryStats, referrerStats, deviceStats, browserStats, langStats, liveKeys] = await Promise.all([
+    // Get hourly breakdown
+    const hourlyData = await Promise.all(
+      Array.from({ length: 24 }, (_, h) => redis.get(`stats:hourly:${h}`))
+    );
+    
+    // Get weekday breakdown
+    const weekdayData = await Promise.all(
+      Array.from({ length: 7 }, (_, d) => redis.get(`stats:weekday:${d}`))
+    );
+    
+    // Get new vs returning
+    const [newVisitors, returningVisitors] = await Promise.all([
+      redis.get('stats:new'),
+      redis.get('stats:returning'),
+    ]);
+
+    const [pageStats, countryStats, referrerStats, deviceStats, browserStats, langStats, liveKeys, liveData] = await Promise.all([
       getStats('stats:pages:', 'page'),
       getStats('stats:countries:', 'country'),
       getStats('stats:referrers:', 'referrer').then(s => s.map(r => ({ ...r, referrer: decodeURIComponent(r.referrer as string) }))),
@@ -59,6 +75,9 @@ export async function GET(request: NextRequest) {
       getStats('stats:browsers:', 'browser'),
       getStats('stats:languages:', 'language'),
       redis.keys('stats:live:*'),
+      redis.keys('stats:live:*').then(keys => 
+        Promise.all((keys || []).slice(0, 20).map(k => redis.get(k)))
+      ),
     ]);
 
     const dailyData = last7Days.map((date, i) => ({
@@ -71,6 +90,11 @@ export async function GET(request: NextRequest) {
       try { return typeof v === 'string' ? JSON.parse(v) : v; } catch { return null; }
     }).filter(Boolean);
 
+    // Parse live visitor locations
+    const liveLocations = (liveData || []).map((d: unknown) => {
+      try { return typeof d === 'string' ? JSON.parse(d) : d; } catch { return null; }
+    }).filter(Boolean);
+
     return NextResponse.json({
       overview: {
         totalViews: totalViews || 0,
@@ -80,8 +104,14 @@ export async function GET(request: NextRequest) {
         yesterdayViews: yesterdayViews || 0,
         yesterdayUnique: yesterdayUnique || 0,
         liveVisitors: (liveKeys || []).length,
+        newVisitors: newVisitors || 0,
+        returningVisitors: returningVisitors || 0,
       },
       daily: dailyData,
+      hourly: hourlyData.map((v, h) => ({ hour: h, views: (v as number) || 0 })),
+      weekday: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].map((day, i) => ({ 
+        day, views: (weekdayData[i] as number) || 0 
+      })),
       pages: pageStats,
       countries: countryStats,
       referrers: referrerStats,
@@ -89,6 +119,7 @@ export async function GET(request: NextRequest) {
       browsers: browserStats,
       languages: langStats,
       recent,
+      liveLocations,
       generatedAt: now.toISOString()
     });
   } catch (error) {
