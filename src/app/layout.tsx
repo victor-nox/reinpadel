@@ -15,7 +15,7 @@ const inter = Inter({
   display: 'swap',
 })
 
-const siteUrl = 'https://reinpadeltour.com'
+const siteUrl = 'https://reinpadel.fr'
 
 export const metadata: Metadata = {
   title: 'Rein Padel Tour 2026 — Tournoi caritatif contre la maladie rénale',
