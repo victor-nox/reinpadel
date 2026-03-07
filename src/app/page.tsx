@@ -20,10 +20,10 @@ const jsonLd = {
   organizer: {
     '@type': 'Organization',
     name: 'Rein Padel Tour',
-    url: 'https://reinpadeltour.com',
+    url: 'https://reinpadel.fr',
   },
-  image: 'https://reinpadeltour.com/og-image.png',
-  url: 'https://reinpadeltour.com',
+  image: 'https://reinpadel.fr/og-image.png',
+  url: 'https://reinpadel.fr',
   inLanguage: 'fr',
 }
 
